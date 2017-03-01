@@ -2,7 +2,7 @@
 
 def getfilename(file):
     try:
-        fullname = 'd:\\' + file + '.txt'
+        fullname = 'd:\\pytemp\\' + file + '.txt'
         filename = open( fullname).read()
     except IOError:
         print('No such file.')
