@@ -2,25 +2,20 @@
 #! python3
 # use class ReadDocx to read the test document.
 
-import ReadDocx
-import getfile_fun
-    
+import getfilename
+import readdocx
+import writedocx   
 
 def main():
     # get the docx.
-    
-
-    SRCDOC = getfile_fun.getfilename('sourcefile')
-
+    SRCDOC = getfilename.getfilename('sourcefile')
     # read the docx.
+    para = readdocx.getparas(SRCDOC)
 
-
-    # write the document.   
-    
-
-    DSTDOC = getfile_fun.getfilename('destinationfile')
-
+    # prepare the document.
+    DSTDOC = getfilename.getfilename('destinationfile')
     # write.
+    writedocx.writepara( DSTDOC, para)
 
 if __name__ == '__main__':
     main()

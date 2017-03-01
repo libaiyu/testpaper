@@ -13,6 +13,12 @@ def getfilename(file):
         print('file name has been written in ' + fullname)
         pass
     else:
-        print('We have got file name in ' + fullname)
+        print('We have got file name: ' + filename + ' in ' + fullname)
         pass
     return filename
+
+def test():
+    getfilename('testfile')
+
+if __name__ == '__main__':
+    test()
