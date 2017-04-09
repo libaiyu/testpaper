@@ -1,0 +1,31 @@
+
+delete the softwares that I donot use.
+
+1, QQ (old)  2, xinqiyi新奇艺   3, winrar(old)
+
+install the softwares that I need.
+
+1, python344   2, git   3, wps   4, winrar(new)   5, QQ(new)
+5, sublime (notepad++)
+
+For python344, pip the modules that I need to use.
+
+1, openpyxl  2, matplotlib  
+3, send2trash  4, requests  5, beautifulsoup4  
+6, selenium  7, PyPDF2  8, python-docx  9, imapclient  
+10, pyzmail  11, twilio 12, pillow  13, pyautogui
+
+when I install openpyxl, pip propmt me that the pip is not the newest one. So I upgrade it to 9.0. (just according to the prompt information to upgrade the pip.)
+
+After install some necessary softwares, I use the ghost(in the usb memory) to clone the C drive.
+
+Then continue to install the other softwares.
+
+At first, I install the softwares that I need use during my course. 
+1, MULTiSIM   2, MATLAB   3, WPS(word, excel)  4, Chinses input (陈桥五笔) it is my favorite, it is really good.  5, sublime (I try to use it in stead of notepad++.)
+
+when I install python-docx, I met a trouble. there is no VC++ 10 in win 7 sys. I should install vc++ 10 first.  But after I install vc++ 10, there is still a software need to install before install python-docx. It is xml-3.7.3-py34-win7-32bit.whl. After install the wheel correctly. I can install the python-docx correctly.
+
+When I met the trouble in install python-docx in python 3.4.4, I tried to install the new version python 3.6.0. But unfortunately, I install the matplotlib met the time out problem, but I tried install it again while I am having lunch. It is installed after I finish lunch. But when I failed to run the multi_gui program that can run well in python 3.4.4. I tried every mathods to fix it but I failed. so I delete all the python 3.6.0, install the python 3.4.4 and all the modules. 
+
+
